@@ -3,8 +3,7 @@ import base64
 from PIL import Image
 import json 
 import requests
-'''
-from streamlit_lottie import st_lottie 
+from streamlit_lottie import st_lottie
 ##lottie animation
 url = requests.get( 
     "https://lottie.host/a6e625b0-a2bf-46a1-bb43-fdd2072d7ff9/pofMSCoB1h.json") 
@@ -17,7 +16,6 @@ if url.status_code == 200:
 else: 
     print("Error in the URL") 
   
-'''
 #st.title("Adding Lottie Animation in Streamlit WebApp") 
   
 #st_lottie(url_json,height=250,width=250,reverse=True)
