@@ -2,7 +2,8 @@ import streamlit as st
 import base64
 from PIL import Image
 import json 
-import requests 
+import requests
+'''
 from streamlit_lottie import st_lottie 
 ##lottie animation
 url = requests.get( 
@@ -16,10 +17,10 @@ if url.status_code == 200:
 else: 
     print("Error in the URL") 
   
-  
+'''
 #st.title("Adding Lottie Animation in Streamlit WebApp") 
   
-st_lottie(url_json,height=250,width=250,reverse=True)
+#st_lottie(url_json,height=250,width=250,reverse=True)
 st.title('Resource Finder')
 sub_list=('MACHINE LEARNING','DATA ANALYTICS','STATISTICS FOR ANALYTICS')
 select=st.selectbox(':blue[**please select your subject**] :point_down:',sub_list)
