@@ -3,18 +3,19 @@ import base64
 from PIL import Image
 import json 
 import requests
-from streamlit_lottie import st_lottie
+#pip install streamlit_lottie
+#from streamlit_lottie import st_lottie
 ##lottie animation
-url = requests.get( 
-    "https://lottie.host/a6e625b0-a2bf-46a1-bb43-fdd2072d7ff9/pofMSCoB1h.json") 
+#url = requests.get( 
+    #"https://lottie.host/a6e625b0-a2bf-46a1-bb43-fdd2072d7ff9/pofMSCoB1h.json") 
 # Creating a blank dictionary to store JSON file, 
 # as their structure is similar to Python Dictionary 
-url_json = dict() 
+#url_json = dict() 
   
-if url.status_code == 200: 
-    url_json = url.json() 
-else: 
-    print("Error in the URL") 
+#if url.status_code == 200: 
+    #url_json = url.json() 
+#else: 
+    #print("Error in the URL") 
   
 #st.title("Adding Lottie Animation in Streamlit WebApp") 
   
